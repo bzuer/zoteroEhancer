@@ -6,7 +6,7 @@ A .js script to enhance bibliographic data in Zotero
 ```js
 (async () => {
     const items = Zotero.getActiveZoteroPane().getSelectedItems();
-    const email = "YOUR@EMAIL.HERE";
+    const email = "myemail@mail.me";
     const batchSize = 12;
     let updatedCount = 0;
 
